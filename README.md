@@ -26,8 +26,6 @@ Variant Effect Predictors (VEPs) are computational tools that assess the potenti
 - [Specialized Predictors](#specialized-predictors)
   - [Disease-Specific Tools](#disease-specific-tools)
   - [Pharmacogenomics](#pharmacogenomics)
-  - [Population-Specific Predictors](#population-specific-predictors)
-  - [Species-Specific Tools](#species-specific-tools)
 - [Educational Resources](#educational-resources)
 - [Web Tools & APIs](#web-tools--apis)
 - [Contributing](#contributing)
@@ -78,7 +76,7 @@ Tools incorporating protein structure information:
 Traditional ML approaches:
 
 - **[FATHMM](http://fathmm.biocompute.org.uk/)** - Hidden Markov Models for functional analysis
-- **[LRT](https://github.com/CancerGenomics/LRT)** - Likelihood Ratio Test comparing evolutionary rates
+- **[LRT](http://www.genetics.wustl.edu/jflab/lrt_query.html)** - Likelihood Ratio Test comparing evolutionary rates
 - **[MetaSVM](https://sites.google.com/site/jpopgen/dbNSFP)** - Support Vector Machine ensemble
 - **[MetaLR](https://sites.google.com/site/jpopgen/dbNSFP)** - Logistic Regression ensemble
 
@@ -88,8 +86,6 @@ Modern neural network approaches:
 
 #### AlphaFold-based Methods
 - **[AlphaMissense](https://github.com/google-deepmind/alphamissense)** - DeepMind's AlphaFold adaptation for missense variant prediction. Precomputed scores for 71M variants. ![GitHub stars](https://img.shields.io/github/stars/google-deepmind/alphamissense) ![Last commit](https://img.shields.io/github/last-commit/google-deepmind/alphamissense)
-- **[Vespa](https://github.com/phucsaker99/vespa)** - Variant Effect Score Prediction with AlphaFold structure features. Uses graph neural networks. ![GitHub stars](https://img.shields.io/github/stars/phucsaker99/vespa) ![Last commit](https://img.shields.io/github/last-commit/phucsaker99/vespa)
-- **[MAVE-NN](https://github.com/gitter-lab/MAVE-NN)** - Multiplex assays of variant effects neural network. Learns from DMS data. ![GitHub stars](https://img.shields.io/github/stars/gitter-lab/MAVE-NN) ![Last commit](https://img.shields.io/github/last-commit/gitter-lab/MAVE-NN)
 
 #### Protein Language Models
 - **[ESM-1v](https://github.com/facebookresearch/esm)** - Meta's evolutionary scale modeling for variant effects. Zero-shot prediction capability. ![GitHub stars](https://img.shields.io/github/stars/facebookresearch/esm) ![Last commit](https://img.shields.io/github/last-commit/facebookresearch/esm)
@@ -101,13 +97,10 @@ Modern neural network approaches:
 #### Generative & Autoregressive Models
 - **[EVE](https://github.com/OATML-Markslab/EVE)** - Evolutionary model of variant effect. VAE trained on MSAs. Provides uncertainty estimates. ![GitHub stars](https://img.shields.io/github/stars/OATML-Markslab/EVE) ![Last commit](https://img.shields.io/github/last-commit/OATML-Markslab/EVE)
 - **[Tranception](https://github.com/OATML-Markslab/Tranception)** - Autoregressive transformer for protein fitness. Handles insertions and deletions. ![GitHub stars](https://img.shields.io/github/stars/OATML-Markslab/Tranception) ![Last commit](https://img.shields.io/github/last-commit/OATML-Markslab/Tranception)
-- **[ProteinGPT](https://github.com/HICAI-ZJU/ProteinGPT)** - Generative pretrained transformer for proteins. Multi-modal protein understanding. ![GitHub stars](https://img.shields.io/github/stars/HICAI-ZJU/ProteinGPT) ![Last commit](https://img.shields.io/github/last-commit/HICAI-ZJU/ProteinGPT)
 - **[ProGen](https://github.com/salesforce/progen)** - Protein engineering with large language models. Conditional variant generation. ![GitHub stars](https://img.shields.io/github/stars/salesforce/progen) ![Last commit](https://img.shields.io/github/last-commit/salesforce/progen)
 
 #### Specialized Deep Learning
 - **[DeepSequence](https://github.com/debbiemarkslab/DeepSequence)** - Generative model of protein families. Predicts mutation effects. ![GitHub stars](https://img.shields.io/github/stars/debbiemarkslab/DeepSequence) ![Last commit](https://img.shields.io/github/last-commit/debbiemarkslab/DeepSequence)
-- **[VARITY](https://github.com/hyulab/VARITY_2024)** - Deep learning with structure and sequence features. Clinical variant interpretation. ![GitHub stars](https://img.shields.io/github/stars/hyulab/VARITY_2024) ![Last commit](https://img.shields.io/github/last-commit/hyulab/VARITY_2024)
-- **[MutCompute](https://github.com/guanghelee/MutCompute)** - Graph neural networks for mutation effect prediction. Integrates evolutionary and structural data. ![GitHub stars](https://img.shields.io/github/stars/guanghelee/MutCompute) ![Last commit](https://img.shields.io/github/last-commit/guanghelee/MutCompute)
 
 ## By Variant Type
 
@@ -212,34 +205,19 @@ Tools designed for clinical variant interpretation:
 
 #### Cardiovascular
 - **[CardioBoost](https://github.com/ImperialCardioGenetics/CardioBoost)** - Gradient boosting for cardiomyopathy variants. ![GitHub stars](https://img.shields.io/github/stars/ImperialCardioGenetics/CardioBoost) ![Last commit](https://img.shields.io/github/last-commit/ImperialCardioGenetics/CardioBoost)
-- **[CardioVAI](https://github.com/ImperialCardioGenetics/CardioVAI)** - Variant interpretation for inherited cardiac conditions. ![GitHub stars](https://img.shields.io/github/stars/ImperialCardioGenetics/CardioVAI) ![Last commit](https://img.shields.io/github/last-commit/ImperialCardioGenetics/CardioVAI)
-- **[ACMG-Cardiac](https://github.com/VUMC-MachineLearning/ACMG_Cardiac)** - Cardiac variant classification framework
 
 #### Cancer
 - **[CHASM](https://github.com/KarchinLab/CHASMplus)** - Cancer driver missense mutation prediction. ![GitHub stars](https://img.shields.io/github/stars/KarchinLab/CHASMplus) ![Last commit](https://img.shields.io/github/last-commit/KarchinLab/CHASMplus)
-- **[CanDrA](https://github.com/CompbioLabUCF/CanDrA)** - Cancer-specific driver annotation. Trained on COSMIC data. ![GitHub stars](https://img.shields.io/github/stars/CompbioLabUCF/CanDrA) ![Last commit](https://img.shields.io/github/last-commit/CompbioLabUCF/CanDrA)
+- **[CanDrA+](http://bioinformatics.mdanderson.org/main/CanDrA)** - Cancer-specific driver annotation. Trained on COSMIC data
 - **[FATHMM-cancer](http://fathmm.biocompute.org.uk/cancer.html)** - Functional analysis through hidden Markov models for cancer
-- **[CScape](https://github.com/GenomeDataScience/CScape)** - Cancer driver prediction using coding and non-coding variants. ![GitHub stars](https://img.shields.io/github/stars/GenomeDataScience/CScape) ![Last commit](https://img.shields.io/github/last-commit/GenomeDataScience/CScape)
-
-#### Neurological
-- **[MVP](https://github.com/jiujiezz/MVP)** - Missense variant pathogenicity for neurodevelopmental disorders. ![GitHub stars](https://img.shields.io/github/stars/jiujiezz/MVP) ![Last commit](https://img.shields.io/github/last-commit/jiujiezz/MVP)
-- **[NeuroDev-VEP](https://github.com/NeuroDev-Lab/NeuroDev-VEP)** - Specialized for autism and intellectual disability variants
+- **[CScape](http://cscape.biocompute.org.uk/)** - Cancer driver prediction using coding and non-coding variants
 
 ### Pharmacogenomics
 - **[PharmGKB](https://www.pharmgkb.org/)** - Pharmacogenomics knowledge resource with variant annotations
 - **[CPIC](https://cpicpgx.org/)** - Clinical Pharmacogenetics Implementation Consortium guidelines
-- **[PGx-VEP](https://github.com/PharmGKB/PGx-VEP)** - Variant effect prediction for drug metabolism genes. ![GitHub stars](https://img.shields.io/github/stars/PharmGKB/PGx-VEP) ![Last commit](https://img.shields.io/github/last-commit/PharmGKB/PGx-VEP)
-- **[Stargazer](https://github.com/SBIMB/stargazer)** - Calling star alleles from NGS data for pharmacogenes. ![GitHub stars](https://img.shields.io/github/stars/SBIMB/stargazer) ![Last commit](https://img.shields.io/github/last-commit/SBIMB/stargazer)
+- **[Stargazer](https://stargazer.gs.washington.edu/stargazerweb/)** - Calling star alleles from NGS data for pharmacogenes
 
-### Population-Specific Predictors
-- **[APOGEE](https://github.com/PGP-UK/APOGEE)** - African population genetic variant effect estimation. ![GitHub stars](https://img.shields.io/github/stars/PGP-UK/APOGEE) ![Last commit](https://img.shields.io/github/last-commit/PGP-UK/APOGEE)
-- **[REVEL-AF](https://github.com/REVEL-AF/REVEL-AF)** - REVEL calibrated for African populations. Addresses bias in variant interpretation.
-- **[PopVEP](https://github.com/PopulationGenomics/PopVEP)** - Population-aware variant effect prediction framework
 
-### Species-Specific Tools
-- **[VEP-zebrafish](https://github.com/danio-rerio/VEP-zebrafish)** - Variant effect prediction optimized for zebrafish model organism
-- **[Mouse-VEP](https://github.com/jackson-laboratory/Mouse-VEP)** - Mouse genome variant annotation and effect prediction
-- **[Plant-VEP](https://github.com/plantgenomics/Plant-VEP)** - Variant effect prediction for plant genomes
 
 ## Educational Resources
 
