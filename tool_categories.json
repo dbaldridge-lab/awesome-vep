@@ -1,0 +1,478 @@
+{
+  "tools": {
+    "SIFT": {
+      "description": "Standard for missense variants",
+      "categories": {
+        "variant_type": [
+          "snv"
+        ]
+      }
+    },
+    "PolyPhen-2": {
+      "description": "Missense variant specialist",
+      "categories": {
+        "variant_type": [
+          "snv"
+        ]
+      }
+    },
+    "CADD": {
+      "description": "Includes non-coding variants",
+      "categories": {
+        "variant_type": [
+          "regulatory"
+        ]
+      }
+    },
+    "AlphaMissense": {
+      "description": "Comprehensive missense coverage",
+      "categories": {
+        "variant_type": [
+          "snv"
+        ]
+      }
+    },
+    "EVE": {
+      "description": "Variational autoencoder on evolutionary data",
+      "categories": {
+        "methodology": [
+          "sequence_based",
+          "deep_learning"
+        ]
+      }
+    },
+    "PrimateAI": {
+      "description": "Deep learning tool trained on primate variant data. Particularly effective for benign variant identification. ![GitHub stars](https://img.shields.io/github/stars/Illumina/PrimateAI) ![Last commit](https://img.shields.io/github/last-commit/Illumina/PrimateAI)",
+      "categories": {
+        "methodology": [
+          "deep_learning"
+        ],
+        "application": [
+          "clinical"
+        ]
+      }
+    },
+    "REVEL": {
+      "description": "Combines 13 tools, excellent clinical performance",
+      "categories": {
+        "application": [
+          "clinical"
+        ]
+      }
+    },
+    "BayesDel": {
+      "description": "Bayesian integration, top benchmark performance",
+      "categories": {}
+    },
+    "PROVEAN": {
+      "description": "Explicitly designed for indels",
+      "categories": {
+        "variant_type": [
+          "indel"
+        ]
+      }
+    },
+    "MutationTaster": {
+      "description": "Comprehensive indel analysis",
+      "categories": {
+        "variant_type": [
+          "indel"
+        ]
+      }
+    },
+    "PhD-SNP": {
+      "description": "Support Vector Machine approach using sequence and conservation",
+      "categories": {
+        "methodology": [
+          "sequence_based"
+        ]
+      }
+    },
+    "SNAP2": {
+      "description": "Neural network using sequence and structure",
+      "categories": {
+        "methodology": [
+          "sequence_based",
+          "structure_based",
+          "deep_learning"
+        ]
+      }
+    },
+    "MutPred2": {
+      "description": "Predicts molecular mechanisms of pathogenicity",
+      "categories": {
+        "application": [
+          "clinical"
+        ]
+      }
+    },
+    "FoldX": {
+      "description": "Protein stability analysis and mutation effects",
+      "categories": {
+        "methodology": [
+          "structure_based"
+        ]
+      }
+    },
+    "FATHMM": {
+      "description": "Hidden Markov Models for functional analysis",
+      "categories": {}
+    },
+    "LRT": {
+      "description": "Likelihood Ratio Test comparing evolutionary rates",
+      "categories": {
+        "methodology": [
+          "sequence_based"
+        ]
+      }
+    },
+    "MetaSVM": {
+      "description": "Support Vector Machine ensemble",
+      "categories": {
+        "methodology": [
+          "machine_learning"
+        ],
+        "variant_type": [
+          "structural"
+        ]
+      }
+    },
+    "MetaLR": {
+      "description": "Logistic regression ensemble",
+      "categories": {
+        "methodology": [
+          "machine_learning"
+        ]
+      }
+    },
+    "ESM-1v": {
+      "description": "Facebook's protein language model for variants",
+      "categories": {}
+    },
+    "ProteinGPT": {
+      "description": "Generative pretrained transformer for proteins",
+      "categories": {
+        "methodology": [
+          "deep_learning"
+        ]
+      }
+    },
+    "Tranception": {
+      "description": "Transformer model for protein fitness prediction",
+      "categories": {
+        "methodology": [
+          "deep_learning"
+        ]
+      }
+    },
+    "VEST": {
+      "description": "Includes indel prediction",
+      "categories": {
+        "variant_type": [
+          "indel"
+        ]
+      }
+    },
+    "AnnotSV": {
+      "description": "Structural variant annotation and ranking",
+      "categories": {
+        "methodology": [
+          "structure_based"
+        ],
+        "variant_type": [
+          "structural"
+        ]
+      }
+    },
+    "SVFX": {
+      "description": "Structural variant functional annotation",
+      "categories": {
+        "methodology": [
+          "structure_based"
+        ],
+        "variant_type": [
+          "structural"
+        ]
+      }
+    },
+    "ClassifyCNV": {
+      "description": "Copy number variant classification",
+      "categories": {
+        "variant_type": [
+          "structural"
+        ]
+      }
+    },
+    "SpliceAI": {
+      "description": "Deep neural network for splice prediction",
+      "categories": {
+        "methodology": [
+          "deep_learning"
+        ],
+        "variant_type": [
+          "splicing"
+        ]
+      }
+    },
+    "MaxEntScan": {
+      "description": "Maximum entropy splice site scoring",
+      "categories": {
+        "variant_type": [
+          "splicing"
+        ]
+      }
+    },
+    "SPIDEX": {
+      "description": "Splicing impact prediction using deep learning",
+      "categories": {
+        "methodology": [
+          "deep_learning"
+        ],
+        "variant_type": [
+          "splicing"
+        ]
+      }
+    },
+    "MES": {
+      "description": "Maximum Entropy Score for splice sites",
+      "categories": {
+        "variant_type": [
+          "splicing"
+        ]
+      }
+    },
+    "DANN": {
+      "description": "Deep annotation of genetic variants",
+      "categories": {}
+    },
+    "FunSeq2": {
+      "description": "Functional significance of non-coding variants",
+      "categories": {
+        "variant_type": [
+          "regulatory"
+        ]
+      }
+    },
+    "GWAVA": {
+      "description": "Genome-Wide Annotation of Variants",
+      "categories": {}
+    },
+    "MPC": {
+      "description": "Missense badness, PolyPhen-2, and Constraint score",
+      "categories": {
+        "variant_type": [
+          "snv"
+        ]
+      }
+    },
+    "CardioBoost": {
+      "description": "Cardiomyopathy-specific ensemble",
+      "categories": {
+        "methodology": [
+          "machine_learning"
+        ]
+      }
+    },
+    "Ensembl VEP": {
+      "description": "Most widely used annotation tool. Integrates 30+ prediction tools. ![GitHub stars](https://img.shields.io/github/stars/Ensembl/ensembl-vep) ![Last commit](https://img.shields.io/github/last-commit/Ensembl/ensembl-vep)",
+      "categories": {}
+    },
+    "ANNOVAR": {
+      "description": "Efficient annotation with multiple databases. Command-line focused. ![GitHub stars](https://img.shields.io/github/stars/WGLab/ANNOVAR) ![Last commit](https://img.shields.io/github/last-commit/WGLab/ANNOVAR)",
+      "categories": {}
+    },
+    "OpenCRAVAT": {
+      "description": "Modular annotation platform with web interface. 100+ annotation modules. ![GitHub stars](https://img.shields.io/github/stars/KarchinLab/open-cravat) ![Last commit](https://img.shields.io/github/last-commit/KarchinLab/open-cravat)",
+      "categories": {}
+    },
+    "SnpEff": {
+      "description": "Variant annotation and effect prediction tool. ![GitHub stars](https://img.shields.io/github/stars/pcingola/SnpEff) ![Last commit](https://img.shields.io/github/last-commit/pcingola/SnpEff)",
+      "categories": {}
+    },
+    "dbNSFP": {
+      "description": "Database of precomputed scores from 46+ predictors for all possible missense variants",
+      "categories": {
+        "variant_type": [
+          "snv"
+        ]
+      }
+    },
+    "ClinVar": {
+      "description": "NIH database of genetic variants and clinical significance",
+      "categories": {
+        "application": [
+          "clinical"
+        ]
+      }
+    },
+    "gnomAD": {
+      "description": "Population frequency data for variant filtering",
+      "categories": {
+        "application": [
+          "population"
+        ]
+      }
+    },
+    "HGMD": {
+      "description": "Human Gene Mutation Database (subscription required)",
+      "categories": {}
+    },
+    "UniProt": {
+      "description": "Protein sequence and functional information",
+      "categories": {
+        "methodology": [
+          "sequence_based"
+        ]
+      }
+    },
+    "PDB": {
+      "description": "Protein structure database",
+      "categories": {
+        "methodology": [
+          "structure_based"
+        ]
+      }
+    },
+    "ProteinGym": {
+      "description": "Large-scale benchmarking suite with 87 deep mutational scanning datasets. ![GitHub stars](https://img.shields.io/github/stars/OATML-Markslab/ProteinGym) ![Last commit](https://img.shields.io/github/last-commit/OATML-Markslab/ProteinGym)",
+      "categories": {}
+    },
+    "VariantPrioritizationBenchmark": {
+      "description": "Open benchmark with 52 tools and standardized evaluation. ![GitHub stars](https://img.shields.io/github/stars/ZuchnerLab/VariantPrioritizationBenchmark) ![Last commit](https://img.shields.io/github/last-commit/ZuchnerLab/VariantPrioritizationBenchmark)",
+      "categories": {}
+    },
+    "CAGI": {
+      "description": "Critical Assessment of Genome Interpretation challenges",
+      "categories": {}
+    },
+    "VariBench": {
+      "description": "Benchmark datasets for variant effect prediction",
+      "categories": {}
+    },
+    "InterVar": {
+      "description": "ACMG/AMP guidelines implementation. ![GitHub stars](https://img.shields.io/github/stars/WGLab/InterVar) ![Last commit](https://img.shields.io/github/last-commit/WGLab/InterVar)",
+      "categories": {
+        "application": [
+          "clinical"
+        ]
+      }
+    },
+    "CardioClassifier": {
+      "description": "Cardiomyopathy variant classification",
+      "categories": {
+        "methodology": [
+          "machine_learning"
+        ]
+      }
+    },
+    "SpliceAI-visual": {
+      "description": "Clinical splice variant interpretation",
+      "categories": {
+        "variant_type": [
+          "splicing"
+        ],
+        "application": [
+          "clinical"
+        ]
+      }
+    },
+    "Franklin": {
+      "description": "Clinical variant interpretation platform",
+      "categories": {
+        "application": [
+          "clinical"
+        ]
+      }
+    },
+    "Ensembl VEP Tutorial": {
+      "description": "Comprehensive VEP usage guide",
+      "categories": {}
+    },
+    "ANNOVAR Tutorial": {
+      "description": "Step-by-step annotation guide",
+      "categories": {}
+    },
+    "Variant Interpretation Course": {
+      "description": "NIH educational materials",
+      "categories": {}
+    }
+  },
+  "categories": {
+    "variant_type": {
+      "snv": [
+        "AlphaMissense",
+        "dbNSFP",
+        "SIFT",
+        "MPC",
+        "PolyPhen-2"
+      ],
+      "regulatory": [
+        "CADD",
+        "FunSeq2"
+      ],
+      "indel": [
+        "MutationTaster",
+        "PROVEAN",
+        "VEST"
+      ],
+      "structural": [
+        "AnnotSV",
+        "ClassifyCNV",
+        "MetaSVM",
+        "SVFX"
+      ],
+      "splicing": [
+        "SpliceAI-visual",
+        "MaxEntScan",
+        "SPIDEX",
+        "MES",
+        "SpliceAI"
+      ]
+    },
+    "methodology": {
+      "sequence_based": [
+        "UniProt",
+        "LRT",
+        "PhD-SNP",
+        "EVE",
+        "SNAP2"
+      ],
+      "deep_learning": [
+        "PrimateAI",
+        "Tranception",
+        "ProteinGPT",
+        "EVE",
+        "SPIDEX",
+        "SNAP2",
+        "SpliceAI"
+      ],
+      "structure_based": [
+        "SVFX",
+        "PDB",
+        "AnnotSV",
+        "SNAP2",
+        "FoldX"
+      ],
+      "machine_learning": [
+        "MetaLR",
+        "CardioClassifier",
+        "MetaSVM",
+        "CardioBoost"
+      ]
+    },
+    "application": {
+      "clinical": [
+        "PrimateAI",
+        "MutPred2",
+        "InterVar",
+        "SpliceAI-visual",
+        "ClinVar",
+        "Franklin",
+        "REVEL"
+      ],
+      "population": [
+        "gnomAD"
+      ]
+    }
+  }
+}
