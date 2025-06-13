@@ -6,7 +6,10 @@
 Variant Effect Predictors (VEPs) are computational tools that assess the potential impact of genetic variants on protein function, disease risk, and phenotypic outcomes. This list focuses on the most reliable, well-maintained, and widely-used tools in the field.
 
 ## References
-Hu Z, et al. VIPdb, a genetic Variant Impact Predictor database. Hum Mutat (2019) 40(9):1202-1214. PubMed 
+- [Hu Z, et al. VIPdb, a genetic Variant Impact Predictor database. Hum Mutat (2019) 40(9):1202-1214. PubMed](https://genomeinterpretation.org/vipdb.html)
+- [Atlas of Variant Effects - Variant Effect Predictors](https://www.varianteffect.org/veps/)
+- 
+
 
 ## Contents
 
@@ -236,6 +239,7 @@ Tools designed for clinical variant interpretation:
 - **"Computational tools for variant effect prediction"** - Comprehensive tool comparison
 - **"Clinical variant interpretation guidelines"** - ACMG/AMP framework explanation
 - **"Machine learning in variant effect prediction"** - Modern ML approaches review
+V. Pejaver et al., ‘Calibration of computational tools for missense variant pathogenicity classification and ClinGen recommendations for PP3/BP4 criteria’, Am J Hum Genet, vol. 109, no. 12, pp. 2163–2177, Dec. 2022, doi: 10.1016/j.ajhg.2022.10.013.
 
 ### Documentation
 - [Benchmarking Datasets](resources/benchmarking_datasets.md) - Standard evaluation datasets
