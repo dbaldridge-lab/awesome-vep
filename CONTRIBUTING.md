@@ -24,11 +24,11 @@ Thank you for your interest in contributing to this curated list! This document 
 ### For VEP Tools
 
 #### Essential Criteria (must meet at least 1)
-- [ ] **Active maintenance**: Commits, releases, or updates within the last 2 years
 - [ ] **Published research**: Peer-reviewed publication in a reputable journal
 - [ ] **Wide adoption**: Used in multiple studies
 
 #### Additional Criteria
+- [ ] **Active maintenance**: Commits, releases, or updates within the last 2 years
 - [ ] **Open source**: Code available on GitHub or similar platform
 - [ ] **Documentation**: Clear usage instructions and documentation
 - [ ] **Benchmark performance**: Demonstrated good performance in comparison studies
