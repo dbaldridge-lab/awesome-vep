@@ -23,8 +23,6 @@ Thank you for your interest in contributing to this curated list! This document 
 
 ### For VEP Tools
 
-Tools must meet **at least 3 of the following criteria**:
-
 #### Essential Criteria (must meet at least 1)
 - [ ] **Active maintenance**: Commits, releases, or updates within the last 2 years
 - [ ] **Published research**: Peer-reviewed publication in a reputable journal
@@ -33,7 +31,6 @@ Tools must meet **at least 3 of the following criteria**:
 #### Additional Criteria
 - [ ] **Open source**: Code available on GitHub or similar platform
 - [ ] **Documentation**: Clear usage instructions and documentation
-- [ ] **Unique functionality**: Serves a distinct purpose not covered by existing tools
 - [ ] **Benchmark performance**: Demonstrated good performance in comparison studies
 - [ ] **Clinical relevance**: Applicable to clinical variant interpretation
 
