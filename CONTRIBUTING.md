@@ -9,7 +9,7 @@ Thank you for your interest in contributing to this curated list! This document 
 1. **Check if it already exists**: Search the README to ensure the tool isn't already listed
 2. **Verify it meets our criteria**: See [Quality Criteria](#quality-criteria) below
 3. **Use the proper format**: Follow our [formatting guidelines](#formatting-guidelines)
-4. **Submit via pull request**: Fork the repo, make changes, and submit a PR
+4. **Submit via pull request or GitHub issues**: See [Submission Process](#submission-process)
 
 ### Other Contributions
 
