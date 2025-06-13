@@ -38,8 +38,6 @@ Variant Effect Predictors (VEPs) are computational tools that assess the potenti
 
 ## Popular VEP Tools
 
-The most widely-used and well-established variant effect predictors:
-
 ### Classic Methods
 
 - **[SIFT](http://sift.bii.a-star.edu.sg/)** - Predicts whether amino acid substitutions affect protein function using sequence homology. One of the most cited VEP tools. ![Citations](https://img.shields.io/badge/citations-15000%2B-brightgreen)
