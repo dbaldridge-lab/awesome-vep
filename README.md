@@ -24,7 +24,7 @@ Variant Effect Predictors (VEPs) are computational tools that assess the potenti
   - [Structural Variants](#structural-variants)
   - [Splicing Variants](#splicing-variants)
   - [Regulatory Variants](#regulatory-variants)
-  - [Disordered Region Variants](#Intrinsically-Disordered-Region-(IDR)-Variants)
+  - [Disordered Region Variants](#intrinsically-disordered-region-idr-variants)
 - [Meta-predictors & Ensemble Methods](#meta-predictors--ensemble-methods)
 - [Annotation Platforms](#annotation-platforms)
 - [Databases & Resources](#databases--resources)
