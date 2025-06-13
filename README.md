@@ -148,8 +148,8 @@ Tools for splice site and splicing impact prediction:
 ### Regulatory Variants
 
 Non-coding and regulatory region variants:
-
-- **[CADD](https://cadd.gs.washington.edu/)** - Includes non-coding variants
+- **[PromoterAI](https://github.com/NucleomeData/PromoterAI)** – Deep learning-based model for predicting variant impact in promoter regions using chromatin features. ![GitHub stars](https://img.shields.io/github/stars/NucleomeData/PromoterAI) ![Last commit](https://img.shields.io/github/last-commit/NucleomeData/PromoterAI)
+- **[Borzoi](https://www.gimopen.org/article/S2949-7744(25)00399-1/fulltext)** – Transformer-based method leveraging DNase and histone signal to score non-coding variant effects in human promoters.
 - **[DANN](https://cbcl.ics.uci.edu/public_data/DANN/)** - Deep annotation of genetic variants
 - **[FunSeq2](http://funseq2.gersteinlab.org/)** - Functional significance of non-coding variants
 - **[GWAVA](https://www.sanger.ac.uk/science/tools/gwava)** - Genome-Wide Annotation of Variants
