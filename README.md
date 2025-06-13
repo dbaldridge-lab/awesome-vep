@@ -1,4 +1,5 @@
 # Awesome Variant Effect Predictors [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# (Under review for content accuracy)
 
 > A curated list of tools, resources, and datasets for predicting the functional effects of genetic variants
 
