@@ -90,6 +90,8 @@ Modern neural network approaches:
 
 #### AlphaFold-based Methods
 - **[AlphaMissense](https://github.com/google-deepmind/alphamissense)** - DeepMind's AlphaFold adaptation for missense variant prediction. Precomputed scores for 71M variants. ![GitHub stars](https://img.shields.io/github/stars/google-deepmind/alphamissense) ![Last commit](https://img.shields.io/github/last-commit/google-deepmind/alphamissense)
+- **[ColabFold](https://github.com/sokrypton/ColabFold)** – User-friendly AlphaFold2 implementation with MMseqs2-based fast homology search. Ideal for rapid protein structure prediction. ![GitHub stars](https://img.shields.io/github/stars/sokrypton/ColabFold) ![Last commit](https://img.shields.io/github/last-commit/sokrypton/ColabFold)
+
 
 #### Protein Language Models
 - **[ESM-1v](https://github.com/facebookresearch/esm)** - Meta's evolutionary scale modeling for variant effects. Zero-shot prediction capability. ![GitHub stars](https://img.shields.io/github/stars/facebookresearch/esm) ![Last commit](https://img.shields.io/github/last-commit/facebookresearch/esm)
