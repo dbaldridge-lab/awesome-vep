@@ -237,9 +237,10 @@ Tools designed for clinical variant interpretation:
 ### Review Papers
 - **"Computational tools for variant effect prediction"** - Comprehensive tool comparison
 - **"Clinical variant interpretation guidelines"** - ACMG/AMP framework explanation
+  V. Pejaver et al., ‘Calibration of computational tools for missense variant pathogenicity classification and ClinGen recommendations for PP3/BP4 criteria’, Am J Hum Genet, vol. 109, no. 12, pp. 2163–2177, Dec. 2022, doi: 10.1016/j.ajhg.2022.10.013.
+
 - **"Machine learning in variant effect prediction"** - Modern ML approaches review
   
-V. Pejaver et al., ‘Calibration of computational tools for missense variant pathogenicity classification and ClinGen recommendations for PP3/BP4 criteria’, Am J Hum Genet, vol. 109, no. 12, pp. 2163–2177, Dec. 2022, doi: 10.1016/j.ajhg.2022.10.013.
 
 ### Documentation
 - [Benchmarking Datasets](resources/benchmarking_datasets.md) - Standard evaluation datasets
