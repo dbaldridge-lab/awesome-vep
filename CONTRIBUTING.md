@@ -28,7 +28,7 @@ Tools must meet **at least 3 of the following criteria**:
 #### Essential Criteria (must meet at least 1)
 - [ ] **Active maintenance**: Commits, releases, or updates within the last 2 years
 - [ ] **Published research**: Peer-reviewed publication in a reputable journal
-- [ ] **Wide adoption**: Used in multiple studies or cited 50+ times
+- [ ] **Wide adoption**: Used in multiple studies
 
 #### Additional Criteria
 - [ ] **Open source**: Code available on GitHub or similar platform
