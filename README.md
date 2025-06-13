@@ -7,7 +7,7 @@ Variant Effect Predictors (VEPs) are computational tools that assess the potenti
 
 ## References
 - [Hu Z, et al. VIPdb, a genetic Variant Impact Predictor database. Hum Mutat (2019) 40(9):1202-1214. PubMed](https://genomeinterpretation.org/vipdb.html)
-- [Atlas of Variant Effects - Variant Effect Predictors](https://www.varianteffect.org/veps/)
+- [Atlas of Variant Effects - Resources: Variant Effect Predictors](https://www.varianteffect.org/veps/)
 - [Atlas of Variant Effects - Register of Variant Effect Predictors](https://docs.google.com/spreadsheets/d/17Zsqz-VIS8HQ_Rfl135zRozjyEEcvf9sYdBkxoXwWqc/edit?gid=1328608121#gid=1328608121)
 
 ## Contents
