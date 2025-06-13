@@ -268,12 +268,7 @@ V. Pejaver et al., ‘Calibration of computational tools for missense variant pa
 
 ## Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on:
-
-- Adding new tools
-- Quality criteria for inclusion
-- Submission format requirements
-- Review process
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on adding new tools and improving this page.
 
 ## License
 
