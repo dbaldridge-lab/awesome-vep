@@ -191,6 +191,8 @@ Tools and datasets for evaluating VEP performance:
 - **[VariantPrioritizationBenchmark](https://github.com/ZuchnerLab/VariantPrioritizationBenchmark)** - Open benchmark with 52 tools and standardized evaluation. ![GitHub stars](https://img.shields.io/github/stars/ZuchnerLab/VariantPrioritizationBenchmark) ![Last commit](https://img.shields.io/github/last-commit/ZuchnerLab/VariantPrioritizationBenchmark)
 - **[CAGI](https://genomeinterpretation.org/)** - Critical Assessment of Genome Interpretation challenges
 - **[VariBench](http://structure.bmc.lu.se/VariBench/)** - Benchmark datasets for variant effect prediction
+-  **[VEPerform](https://www.gimopen.org/article/S2949-7744(25)00399-1/fulltext)** – Interactive benchmarking platform for evaluating VEPs using clinical and functional test sets. ![GitHub stars](https://img.shields.io/github/stars/BryanWalkerLab/VEPerform) ![Last commit](https://img.shields.io/github/last-commit/BryanWalkerLab/VEPerform)
+
 
 ## Clinical Applications
 
