@@ -93,14 +93,6 @@ Place tools in the most specific appropriate category:
 5. **Commit**: Use descriptive commit messages
 6. **Submit PR**: Provide clear description of changes
 
-### Review Process
-
-1. **Initial check**: Maintainers verify formatting and criteria
-2. **Content review**: Evaluate tool quality and uniqueness
-3. **Community feedback**: Allow time for community input
-4. **Final decision**: Approve, request changes, or decline
-5. **Merge**: Approved contributions are merged
-
 ## Style Guidelines
 
 ### Writing Style
@@ -115,7 +107,6 @@ Place tools in the most specific appropriate category:
 - **Methodology**: Briefly mention the core approach
 - **Performance**: Include benchmark results if available
 - **Limitations**: Note significant limitations if relevant
-- **Updates**: Keep maintenance status current
 
 ## What NOT to Include
 
@@ -129,8 +120,7 @@ Place tools in the most specific appropriate category:
 
 ### Excluded Content
 
-- **Tool comparisons**: We don't declare winners or make direct comparisons
-- **Performance rankings**: Avoid ranking tools by performance
+- **Tool comparisons**: We don't rank tools or make direct comparisons
 - **Personal opinions**: Stick to factual descriptions
 - **Commercial endorsements**: No promotional content
 
@@ -139,30 +129,6 @@ Place tools in the most specific appropriate category:
 ### Code of Conduct
 
 Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md).
-
-### Communication
-
-- **Be respectful**: Treat all contributors with respect
-- **Be constructive**: Provide helpful feedback and suggestions
-- **Be patient**: Allow time for reviews and responses
-- **Be inclusive**: Welcome contributors from all backgrounds
-
-### Conflict Resolution
-
-If you disagree with a decision:
-
-1. **Discuss politely**: Engage in constructive discussion
-2. **Provide evidence**: Support your position with facts
-3. **Seek consensus**: Work toward mutually acceptable solutions
-4. **Accept decisions**: Respect final maintainer decisions
-
-## Recognition
-
-Contributors are recognized through:
-
-- **GitHub contributions**: Commit history and contributor lists
-- **Acknowledgments**: Significant contributors may be acknowledged
-- **Community recognition**: Active contributors become trusted reviewers
 
 ## Questions?
 
