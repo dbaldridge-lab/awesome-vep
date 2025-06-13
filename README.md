@@ -24,6 +24,7 @@ Variant Effect Predictors (VEPs) are computational tools that assess the potenti
   - [Structural Variants](#structural-variants)
   - [Splicing Variants](#splicing-variants)
   - [Regulatory Variants](#regulatory-variants)
+  - [Disordered Region Variants](#Intrinsically-Disordered-Region-(IDR)-Variants)
 - [Meta-predictors & Ensemble Methods](#meta-predictors--ensemble-methods)
 - [Annotation Platforms](#annotation-platforms)
 - [Databases & Resources](#databases--resources)
@@ -153,6 +154,13 @@ Non-coding and regulatory region variants:
 - **[DANN](https://cbcl.ics.uci.edu/public_data/DANN/)** - Deep annotation of genetic variants
 - **[FunSeq2](http://funseq2.gersteinlab.org/)** - Functional significance of non-coding variants
 - **[GWAVA](https://www.sanger.ac.uk/science/tools/gwava)** - Genome-Wide Annotation of Variants
+
+### Intrinsically Disordered Region (IDR) Variants
+Tools specialized for evaluating variant effects in intrinsically disordered regions of proteins:
+
+- **[DisoMine](https://github.com/bioinfo-pf-curie/disomine)** – Machine learning-based tool for predicting disorder from sequence and assessing impact of mutations. ![GitHub stars](https://img.shields.io/github/stars/bioinfo-pf-curie/disomine) ![Last commit](https://img.shields.io/github/last-commit/bioinfo-pf-curie/disomine)
+- **[mobidb-lite](https://github.com/biofold/mobidb-lite)** – Lightweight disorder prediction integrating multiple sources of disorder annotations. ![GitHub stars](https://img.shields.io/github/stars/biofold/mobidb-lite) ![Last commit](https://img.shields.io/github/last-commit/biofold/mobidb-lite)
+- **[metapredict](https://github.com/idptools/metapredict)** – Fast, deep-learning-based disorder predictor that supports batch variant analysis. ![GitHub stars](https://img.shields.io/github/stars/idptools/metapredict) ![Last commit](https://img.shields.io/github/last-commit/idptools/metapredict)
 
 ## Meta-predictors & Ensemble Methods
 
