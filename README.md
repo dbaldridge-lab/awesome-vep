@@ -227,8 +227,6 @@ Tools designed for clinical variant interpretation:
 
 ## Educational Resources
 
-Learning materials and tutorials:
-
 ### Tutorials & Courses
 - **[Ensembl VEP Tutorial](https://www.ensembl.org/info/docs/tools/vep/index.html)** - Comprehensive VEP usage guide
 - **[ANNOVAR Tutorial](https://annovar.openbioinformatics.org/en/latest/user-guide/startup/)** - Step-by-step annotation guide
